@@ -2,5 +2,14 @@
   "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
+    "vaults_VaultUqacTP1_name": {
+      "value": "VaultUqacTP1"
+    },
+    "vmAdminUsername": {
+      "value": "adminUser" // Remplacez par le nom d'utilisateur souhaité
+    },
+    "vmAdminPassword": {
+      "value": "P@ssw0rd123!" // Remplacez par un mot de passe sécurisé
+    }
   }
-}
+} 
